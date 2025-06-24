@@ -3,6 +3,28 @@ languageCode = 'pl-pl'
 title = 'poAIsterkujmy.pl'
 theme = 'stack'
 
+[params]
+  description = "Blog o AI, technologii i majsterkowaniu"
+  mainSections = ["posts"]
+  favicon = "/favicon.ico"
+
+  [params.sidebar]
+    compact = false
+    subtitle = "Blog o AI i majsterkowaniu"
+    emoji = "🤖"
+
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = "img/avatar.png"
+
+  [params.footer]
+    since = 2025
+    customText = "Zrobione z ❤️ w Hugo"
+
+  [params.social]
+    github = "https://github.com/catpersec"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
