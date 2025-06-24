@@ -1,0 +1,4 @@
+baseURL = 'https://poaisterkujmy.pl/'
+languageCode = 'pl-pl'
+title = 'poAIsterkujmy.pl'
+theme = 'stack'
